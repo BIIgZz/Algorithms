@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetecode/构建乘积数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetecode/最小的k个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetecode/调整数组顺序使奇数位于偶数前面.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetecode/青蛙跳台阶.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="52" column="5" selection-start-line="30" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="158">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -81,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="798">
               <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetecode/构建乘积数组.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="21">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetecode/最小的k个数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -127,7 +128,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/leetecode" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -157,9 +158,10 @@
         <option value="$PROJECT_DIR$/src/leetecode/n1中缺失的数字.java" />
         <option value="$PROJECT_DIR$/src/leetecode/链表中倒数第k个节点.java" />
         <option value="$PROJECT_DIR$/src/leetecode/第一个只出现一次的字符.java" />
-        <option value="$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java" />
         <option value="$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java" />
         <option value="$PROJECT_DIR$/src/leetecode/构建乘积数组.java" />
+        <option value="$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java" />
+        <option value="$PROJECT_DIR$/src/leetecode/最小的k个数.java" />
       </list>
     </option>
   </component>
@@ -226,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2004">
+  <component name="RunManager" selected="Application.最小的k个数">
     <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="newcode.进制转换" />
       <module name="algorithm" />
@@ -344,8 +346,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="最小的k个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetecode.最小的k个数" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.最小的k个数" />
         <item itemvalue="Application.Main2004" />
         <item itemvalue="Application.末尾0的个数" />
         <item itemvalue="Application.进制转换" />
@@ -375,7 +391,8 @@
       <workItem from="1591614607673" duration="6063000" />
       <workItem from="1591702913719" duration="5430000" />
       <workItem from="1591799278768" duration="3434000" />
-      <workItem from="1591879477117" duration="2503000" />
+      <workItem from="1591879477117" duration="3767000" />
+      <workItem from="1591971331232" duration="2480000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -391,16 +408,31 @@
       <option name="project" value="LOCAL" />
       <updated>1591800117778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="简单算法">
+      <created>1591882481176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591882481177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="简单算法">
+      <created>1591882664660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591882664660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72878000" />
+    <option name="totallyTimeSpent" value="76622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2320917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23567335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,17 +441,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32822478" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39846742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32992327" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32822478" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32736573" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -608,10 +640,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java">
+    <entry file="file://$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="5" selection-start-line="30" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="798">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,20 +664,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java">
+    <entry file="file://$PROJECT_DIR$/src/leetecode/构建乘积数组.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetecode/构建乘积数组.java">
+    <entry file="file://$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="158">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetecode/最小的k个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="31" />
         </state>
       </provider>
     </entry>
