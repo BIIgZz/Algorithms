@@ -27,7 +27,7 @@ import java.util.Stack;
  * @author: zzh
  * @create: 2020-06-09 20:23
  **/
-public class CQueue {
+class CQueue {
     Stack<Integer> stack ;
     Stack<Integer> queue ;
     int size;
@@ -38,7 +38,7 @@ public class CQueue {
     }
 
     public void appendTail(int value) {
-        stack.push(value);\
+        stack.push(value);
         size++;
     }
     public int deleteHead() {

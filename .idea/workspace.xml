@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetecode/第一个只出现一次的字符.java" line="33" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="" />
+    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="简单算法" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -394,7 +394,7 @@
       <workItem from="1592050705375" duration="3370000" />
       <workItem from="1592140822495" duration="2443000" />
       <workItem from="1592216145576" duration="8704000" />
-      <workItem from="1592917322211" duration="3632000" />
+      <workItem from="1592917322211" duration="3903000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -456,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94771000" />
+    <option name="totallyTimeSpent" value="95042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
@@ -476,10 +476,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992327" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928367" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32992327" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32736573" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -494,6 +494,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="简单算法" />
