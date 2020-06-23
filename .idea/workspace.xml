@@ -128,6 +128,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/leetecode" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -404,7 +405,7 @@
       <workItem from="1592050705375" duration="3370000" />
       <workItem from="1592140822495" duration="2443000" />
       <workItem from="1592216145576" duration="8704000" />
-      <workItem from="1592917322211" duration="2991000" />
+      <workItem from="1592917322211" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -466,12 +467,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94130000" />
+    <option name="totallyTimeSpent" value="94526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +490,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32992327" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32992327" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32736573" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
