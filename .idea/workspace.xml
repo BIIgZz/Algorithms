@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetecode/股票的最大利润.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetecode/表示数值的字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetecode/重建二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetecode/队列的最大值.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetecode/股票的最大利润.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -399,7 +395,7 @@
       <workItem from="1592050705375" duration="3370000" />
       <workItem from="1592140822495" duration="2443000" />
       <workItem from="1592216145576" duration="8704000" />
-      <workItem from="1592917322211" duration="759000" />
+      <workItem from="1592917322211" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -450,14 +446,22 @@
       <option name="project" value="LOCAL" />
       <updated>1592142010835</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="简单算法">
+      <created>1592918393762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592918393762</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91898000" />
+    <option name="totallyTimeSpent" value="92681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -770,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetecode/股票的最大利润.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="207">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
