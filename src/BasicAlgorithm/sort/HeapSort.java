@@ -31,7 +31,7 @@ public class HeapSort {
             int temp = num[i];
            for(int j=2*i;j<length;j*=2){
                //取出较大节点的下标
-                if(j<length&&num[j]<num[j+1])
+                if(num[j]<num[j+1])
                     j++;
                 //将较大的num[j]调到双亲节点上
                 if (num[j] > temp){
@@ -45,10 +45,5 @@ public class HeapSort {
             num[i]=temp;
     }
 
-    public static void main(String[] args) {
-        HeapSort heapSort = new HeapSort();
-        int num[] = {22,11,5,3,6,555};
-        heapSort.heapSort(num);
-        System.out.println(Arrays.toString(num));
-    }
+
 }
