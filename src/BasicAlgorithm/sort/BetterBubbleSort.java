@@ -2,7 +2,7 @@ package BasicAlgorithm.sort;
 
 /**
  * @program: algorithm
- * @description: 冒泡排序优化
+ * @description: 冒泡排序简单优化
  * @author: zzh
  * @create: 2021-01-13 19:55
  **/
@@ -18,7 +18,7 @@ public class BetterBubbleSort {
                     flag = true;
                 }
             }
-            if (flag == false)
+            if (!flag)
                 return num;
         }
         return num;
