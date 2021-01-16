@@ -2,11 +2,9 @@ package BasicAlgorithm.sort;
 
 import java.util.Arrays;
 
-import static utils.Swap.swap;
-
 /**
  * @program: algorithm
- * @description: 堆排序 注意数组长度问题和边界问题
+ * @description: 堆排序 注意数组长度问题和便捷
  * @author: zzh
  * @create: 2021-01-16 15:36
  **/
@@ -28,22 +26,32 @@ public class HeapSort {
     }
     //调整堆
     private void heapAdjust(int[] num, int i, int length) {
-            int temp = num[i];
-           for(int j=2*i;j<length;j*=2){
-               //取出较大节点的下标
-                if(num[j]<num[j+1])
-                    j++;
-                //将较大的num[j]调到双亲节点上
-                if (num[j] > temp){
-                    num[i] = num[j];
-                    i = j;
-                }else {
-                    //筛选结束
-                    break;
-                }
+        int temp = num[i];
+        for(int j=2*i;j<length;j*=2){
+            //取出较大节点的下标
+            if(num[j]<num[j+1])
+                j++;
+            //将较大的num[j]调到双亲节点上
+            if (num[j] > temp){
+                num[i] = num[j];
+                i = j;
+            }else {
+                //筛选结束
+                break;
             }
-            num[i]=temp;
+        }
+        num[i]=temp;
+    }
+    private  void  swap(int[] num, int i, int length) {
+        int temp = num[i];
+        num[i] = num[length];
+        num[length] = temp;
     }
 
-
+    public static void main(String[] args) {
+        HeapSort heapSort = new HeapSort();
+        int num[] = {22,11,5,3,6,555};
+        heapSort.heapSort(num);
+        System.out.println(Arrays.toString(num));
+    }
 }

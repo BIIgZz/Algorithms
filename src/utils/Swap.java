@@ -7,9 +7,9 @@ package utils;
  * @create: 2021-01-16 20:51
  **/
 public class Swap {
-    public static void  swap(int[] num, int i, int length) {
-        int temp = num[i];
-        num[i] = num[length];
-        num[length] = temp;
+    public static void  swap( int i, int j) {
+        int temp = i;
+        i = j;
+        j = temp;
     }
 }
