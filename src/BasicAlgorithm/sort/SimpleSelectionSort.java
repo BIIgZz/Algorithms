@@ -15,9 +15,9 @@ public class SimpleSelectionSort {
                     min=j;
             }
             if(min!=i){
-                int temp = num[i];
+                int tem = num[i];
                 num[i] = num[min];
-                num[min] = temp;
+                num[min] = tem;
             }
         }
         return num;

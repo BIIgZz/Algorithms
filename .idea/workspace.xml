@@ -2,21 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/leetecode/第一个只出现一次的字符.java" line="33" />
-    <bookmark url="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/HeapSort.java" line="50" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/BetterBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/SimpleSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Swap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="快速排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BasicAlgorithm/sort/BetterBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/BasicAlgorithm/sort/BetterBubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/BasicAlgorithm/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/BasicAlgorithm/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/SimpleSelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -159,11 +158,11 @@
         <option value="$PROJECT_DIR$/src/basicAlgorithm/sort/tree/Inorder.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/SimpleSelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/BetterBubbleSort.java" />
         <option value="$PROJECT_DIR$/src/Swap.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -456,7 +455,7 @@
       <workItem from="1610538875277" duration="3689000" />
       <workItem from="1610771035068" duration="2775000" />
       <workItem from="1610777638179" duration="9498000" />
-      <workItem from="1610798992405" duration="4276000" />
+      <workItem from="1610798992405" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -563,17 +562,30 @@
       <option name="project" value="LOCAL" />
       <updated>1610543193632</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="算法">
+      <created>1610803417039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610803417039</updated>
+    </task>
+    <task id="LOCAL-00017" summary="堆排序">
+      <created>1610804435959</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610804435959</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135905000" />
+    <option name="totallyTimeSpent" value="137196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10885417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10885417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -582,17 +594,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" visible="true" weight="0.39939025" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.39939025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928367" weight="0.32992327" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928367" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32992327" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015625" side_tool="true" weight="0.39939025" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49791667" weight="0.3262195" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026042" side_tool="true" visible="true" weight="0.3262195" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49739584" visible="true" weight="0.3262195" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -621,7 +633,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="简单算法" />
     <MESSAGE value="算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法" />
+    <MESSAGE value="堆排序" />
+    <MESSAGE value="快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -915,24 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/SimpleSelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_40n0czy14qh222/FileStorage/File/2021-01/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -964,13 +964,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/SimpleSelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
