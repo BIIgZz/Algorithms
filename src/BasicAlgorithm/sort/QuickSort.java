@@ -20,7 +20,7 @@ public class QuickSort {
         while (left<right&&num[right]>temp)             //首先从右向左扫描，找到比temp小的
             right--;
         num[left]=num[right];                           //将num[right]放入num[left]
-        while (left<right&&num[left]<temp)              //从左向右扫描，找到比temp大的
+        while (left<right&&num[left]<temp)              //从左向右扫描，找到比temp大的值
             left++;
         num[right]=num[left];                           //将num[left]放入num[right]
         num[left]=temp;
