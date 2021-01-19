@@ -48,10 +48,5 @@ public class HeapSort {
         num[length] = temp;
     }
 
-    public static void main(String[] args) {
-        HeapSort heapSort = new HeapSort();
-        int num[] = {22,11,5,3,6,555};
-        heapSort.heapSort(num);
-        System.out.println(Arrays.toString(num));
-    }
+
 }
