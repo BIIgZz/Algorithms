@@ -57,12 +57,6 @@ public class MergeSort {
 
     }
 
-    public static void main(String[] args) {
-        MergeSort mergeSort = new MergeSort();
-        int num[]={1,2,5,77,4,53,2,11,20};
-        mergeSort.mergeSort(num);
-        System.out.println(Arrays.toString(num));
-    }
 
 
 }
