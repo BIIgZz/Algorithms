@@ -26,10 +26,5 @@ public class StraightInsertionSort {
         }
     }
 
-    public static void main(String[] args) {
-        SimpleSelectionSort simpleSelectionSort = new SimpleSelectionSort();
-        int num[]={1,44,5,3,1,2,5,4,7,89,456};
-        simpleSelectionSort.simpleSelectionSort(num);
-        System.out.println(Arrays.toString(num));
-    }
+
 }
