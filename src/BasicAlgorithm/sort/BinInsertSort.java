@@ -42,10 +42,5 @@ public class BinInsertSort {
         return num;
     }
 
-    public static void main(String[] args) {
-        BinInsertSort binInsertSort = new BinInsertSort();
-        int num[] = {1,5,4,2,3,77,12,25};
-        binInsertSort.binInsertSort(num);
-        System.out.println(Arrays.toString(num));
-    }
+
 }
