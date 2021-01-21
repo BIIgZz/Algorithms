@@ -17,6 +17,7 @@ public class InOrderRecursive {
         //递归遍历右子树
         inOrderRecursive(root.getRight());
 
+        return root;
     }
 
     public static void main(String[] args) {
