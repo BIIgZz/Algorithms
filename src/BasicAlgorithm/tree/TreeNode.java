@@ -2,7 +2,7 @@ package BasicAlgorithm.tree;
 
 /**
  * @program: algorithm
- * @description: 树节点
+ * @description:  树节点
  * @author: zzh
  * @create: 2021-01-21 21:09
  **/
