@@ -7,9 +7,9 @@ package BasicAlgorithm.tree;
  * @create: 2021-01-21 21:07
  **/
 
-public class BinaryTree<T> {
-    private TreeNode root = null;
-    public BinaryTree(T arr[],int index) {
+public class BinaryTree {
+    public TreeNode root = null;
+    public BinaryTree(int[] arr, int index) {
         root = createTree(arr,index);
 
     }
