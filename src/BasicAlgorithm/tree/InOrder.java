@@ -13,12 +13,15 @@ public class InOrder {
         if (root==null)
             return;
         TreeNode treeNode = root;
+        //创建一个栈
         Stack<TreeNode> stack = new Stack<>();
         while (treeNode!=null||!stack.isEmpty()){
+            //遍历左孩子，并且入栈
             if (treeNode!=null){
                 stack.push(treeNode);
                 treeNode=treeNode.getLeft();
             }else{
+                //左孩子为空则出栈输出
                 treeNode = stack.pop();
                 System.out.println(treeNode.getData());
                 treeNode = treeNode.getRight();
