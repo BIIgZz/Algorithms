@@ -2,10 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/leetecode/第一个只出现一次的字符.java" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java" line="18" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/tree/PostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,15 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/InOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="777">
@@ -52,11 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/PostOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="625">
+              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#346#356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetecode/青蛙跳台阶.java" />
         <option value="$PROJECT_DIR$/src/leetecode/连续子数组的最大和.java" />
         <option value="$PROJECT_DIR$/src/leetecode/调整数组顺序使奇数位于偶数前面.java" />
         <option value="$PROJECT_DIR$/src/leetecode/翻转单词顺序.java" />
@@ -197,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/tree/PostOrderRecursive.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/tree/PreOrder.java" />
         <option value="$PROJECT_DIR$/src/BasicAlgorithm/tree/PostOrder.java" />
+        <option value="$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java" />
       </list>
     </option>
   </component>
@@ -279,22 +284,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PostOrder">
-    <configuration name="除自身以外数组的乘积" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetecode.除自身以外数组的乘积" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicAlgorithm.tree.InOrderRecursive" />
+  <component name="RunManager" selected="Application.LevelOrder">
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicAlgorithm.tree.LevelOrder" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -386,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.PostOrder" />
         <item itemvalue="Application.PreOrder" />
         <item itemvalue="Application.PostOrderRecursive" />
         <item itemvalue="Application.PreOrderRecursive" />
-        <item itemvalue="Application.InOrderRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +438,7 @@
       <workItem from="1611228886705" duration="9319000" />
       <workItem from="1611402214257" duration="3135000" />
       <workItem from="1611642721600" duration="5686000" />
-      <workItem from="1612071739764" duration="2977000" />
+      <workItem from="1612071739764" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -749,17 +741,24 @@
       <option name="project" value="LOCAL" />
       <updated>1611241599598</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="&#10;非递归后序遍历">
+      <created>1612074752969</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1612074752970</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187518000" />
+    <option name="totallyTimeSpent" value="188683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08177083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08177083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -768,7 +767,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49635416" visible="true" weight="0.39939025" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49635416" visible="true" weight="0.39939025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -826,7 +825,8 @@
     <MESSAGE value="&#10;递归先序遍历" />
     <MESSAGE value="&#10;递归后序遍历" />
     <MESSAGE value="&#10;非递归先序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;非递归先序遍历" />
+    <MESSAGE value="&#10;非递归后序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;非递归后序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,13 +853,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetecode/用两个栈实现队列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetecode/滑动窗口的最大值.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1110,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/InOrderRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/PreOrderRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1164,8 +1150,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/PostOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="625">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/InOrderRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
