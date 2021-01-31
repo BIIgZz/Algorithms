@@ -5,10 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/BasicAlgorithm/tree/LevelOrder.java" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="&#10;102. 二叉树的层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/leetecode/PostorderTraversal.java" afterDir="false" />
+    <list default="true" id="88c835d5-f5df-42b6-9c0e-8de75ab09f3a" name="Default Changelist" comment="&#10;树节点">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetecode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetecode/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetecode/PostorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="115">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -456,7 +454,7 @@
       <workItem from="1611402214257" duration="3135000" />
       <workItem from="1611642721600" duration="5686000" />
       <workItem from="1612071739764" duration="10115000" />
-      <workItem from="1612100245976" duration="413000" />
+      <workItem from="1612100245976" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="简单算法">
       <created>1591799556007</created>
@@ -794,15 +792,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612083291342</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="&#10;树节点">
+      <created>1612100693558</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1612100693558</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195069000" />
+    <option name="totallyTimeSpent" value="195202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08177083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -813,7 +817,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49635416" visible="true" weight="0.39939025" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49635416" weight="0.39939025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -874,7 +878,8 @@
     <MESSAGE value="&#10;非递归后序遍历" />
     <MESSAGE value="&#10;层次遍历" />
     <MESSAGE value="&#10;102. 二叉树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;102. 二叉树的层序遍历" />
+    <MESSAGE value="&#10;树节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;树节点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetecode/PostorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
