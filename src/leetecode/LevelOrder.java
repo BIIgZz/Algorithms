@@ -31,7 +31,7 @@ public class LevelOrder {
             level.add(t.val);
             //队头前进
             front++;
-            //左孩子进队
+            //左孩子 进队jhk    ds
             if (t.left!=null){
                 queue.offer(t.left);
                 rear++;
