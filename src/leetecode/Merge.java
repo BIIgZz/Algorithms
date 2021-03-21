@@ -23,7 +23,7 @@ public class Merge {
             while(t2>=0){
                 if (t1>=0){
                     nums1[p--]=(nums1[t1]>nums2[t2])?nums1[t1--]:nums2[t2--];
-                }e{
+                }else{
                     nums1[p--]=nums2[t2--];
                 }
 
