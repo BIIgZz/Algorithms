@@ -25,7 +25,7 @@ public class LongestValidParentheses {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i)=='('){
                 stack.add(i);
-            }else  {
+            }else {
                 stack.pop();
                 if (stack.empty()) {
                     stack.add(i);
