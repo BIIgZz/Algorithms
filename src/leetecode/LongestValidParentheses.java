@@ -29,7 +29,7 @@ public class LongestValidParentheses {
                 stack.pop();
                 if (stack.empty()) {
                     stack.add(i);
-                } else {
+                } else  {
                     sum=Math.max(sum,i-stack.peek());
                 }
             }
