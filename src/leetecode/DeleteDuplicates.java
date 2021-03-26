@@ -14,7 +14,7 @@ package leetecode;
  */
 
 import utils.ListNode;
-public class  DeleteDuplicates {
+public class DeleteDuplicates {
     public ListNode deleteDuplicates(ListNode head) {
 
         if (head == null) {
@@ -36,6 +36,4 @@ public class  DeleteDuplicates {
         return dummy.next;
 
     }
-
-
 }
