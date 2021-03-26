@@ -22,7 +22,6 @@ public class MinPathSum {
                     grid[i][j] = grid[i-1][j]+grid[i][j];
                 else
                     grid[i][j] = Math.min(grid[i - 1][j], grid[i][j - 1]) + grid[i][j];
-
             }
         }
         return grid[grid.length-1][grid[0].length-1];
