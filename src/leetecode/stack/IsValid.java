@@ -27,8 +27,9 @@ public class IsValid {
         if (s.length()%2!=0)
             return false;
         Stack<Character> stack = new Stack<>();
-        //遇到左括号，将对应右括号压栈，如果遇到栈空、右括号但是和栈顶不同返回false，栈顶和当前符号相等弹栈
+
         for (int i = 0; i < s.length(); i++) {
+            //遇到左括号，将对应右括号压栈
             if(s.charAt(i)=='('){
                 stack.add(')');
             }else if(s.charAt(i)=='{'){
@@ -36,8 +37,10 @@ public class IsValid {
             }else if(s.charAt(i)=='['){
                 stack.add(']');
             }else if  (stack.isEmpty()||stack.peek()!=s.charAt(i)){
+            //如果遇到栈空、右括号但是和栈顶不同返回false
                return  false;
             }else{
+               // 栈顶和当前符号相等弹栈
                 stack.pop();
             }
         }
