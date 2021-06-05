@@ -18,7 +18,7 @@ import java.util.Map;
  **/
 public class LetterCombinations {
     List<String> res = new ArrayList<>();
-    Map<Character,String> map = new HashMap<>(){
+    Map<Character,String> map = new HashMap<Character,String>(){
         {
             put('2',"abc");
             put('3',"def");
