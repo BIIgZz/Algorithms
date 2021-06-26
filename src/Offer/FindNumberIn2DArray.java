@@ -14,7 +14,7 @@ public class FindNumberIn2DArray {
         while (i>=0&&j<matrix[0].length){
             if (matrix[i][j]>target)i--;
             else if (matrix[i][j]<target)j++;
-            else return true
+            else return true;
         }
         return false;
 
